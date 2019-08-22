@@ -108,6 +108,8 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\Test" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Job.sql">
@@ -142,5 +144,8 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Test\010-PopulateMetadata.sql" />
   </ItemGroup>
 </Project>
